@@ -8,3 +8,32 @@ body{
 h3{
     color: brown;
 }
+#checking{
+    border-bottom-color: blue;
+    border: 1px solid black;
+}
+
+.box{
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(31, 134, 100) ;
+}
+#t{
+    height: 70px;
+    width: 70px;
+    background-color: chartreuse;
+    border-radius: 15px;
+    font-size:large;
+}
+#mode{
+    height: 50px; 
+    width: 150px;
+    border-radius: 10px;
+    color: rgb(6, 0, 0);
+    font-size: 20px;
+    background-color: rgb(62, 104, 168);
+    margin: 5px;
+}

@@ -12,7 +12,9 @@
 <table>   
     <tr>
         <td>
-            <img src="photo_2024-01-22_17-50-42.jpg" height="150px" width="150px" style="border-radius: 550px;" />
+            <a ondblclick=" href='photo_2024-01-22_17-50-42.jpg'">
+            <img id="img1" src="photo_2024-01-22_17-50-42.jpg" height="150px" width="150px" style="border-radius: 550px; object-fit: cover;" />
+            </a>
         </td> 
         <td>
         
@@ -78,7 +80,7 @@
 
             <hr/><hr/>
             <p></p><br/>
-<h1> Registration Form</h1>
+<h1 > Registration Form</h1>
             <form action="/action.php" target="main">
                 <input type="text" placeholder="type your gmail id  :) "><br/><br/>
                 <input type="text" placeholder="your username plz :) "><br/><br/>
@@ -113,7 +115,7 @@
                 </form><br/><hr/>
             
             <p>ahhh! it was really <b>Tough</b> but yeah i did it finally, html course completed... woooooooh!!!</p>
-            <p> this is from where learned html :  </p>
+            <p> this is from where I learned html :  </p>
 
             
                 <br/><br/>
@@ -121,40 +123,65 @@
                 <iframe width="400" height="215" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=URKxB1Sbnb5nJ_VM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <br/>
 <hr/>
-<script src="first.js"></script>
+
 
 
                   
-<p>making buttons having logic :</p>
+<p >making buttons having logic :</p>
 
 <table>
     <tr>
         <td>
              <a href="https://www.google.com/" target="main">
-             <button style="font-size: 14px; background-color: rgb(123, 98, 206); color: rgb(248, 248, 249); border-radius: 9px ; height: 40px; width: 170px; border-color: rgb(249, 216, 216);" > Google link </button>
+             <button style="font-size: 14px; background-color: rgb(123, 98, 206); color: rgb(248, 248, 249); border-radius: 9px ; height: 40px; width: 170px; " id="checking" > Google link </button>
              </a>
         </td> 
              
 
         <td>
              <a href="https://www.netflix.com/" target="main">
-             <button style="font-size: 13px; background-color: rgb(232, 21, 21); color: rgb(250, 249, 249); border-radius: 18px; height: 40px; width: 150px;" > Netflix & Chill</button>
+             <button class="btn" style="font-size: 13px; background-color: rgb(232, 21, 21); color: rgb(250, 249, 249); border-radius: 18px; height: 40px; width: 150px;"> Netflix & Chill</button>
              </a>
         </td>
     </tr>    
 </table>
 
 <!-- button using chatgpt...-->
-<button style="display: inline-block; padding: 10px 20px; font-size: 16px; font-weight: bold; text-align: center; text-decoration: none; background-color: #4CAF50; color: #fff; border: 2px solid #4CAF50; border-radius: 5px; cursor: pointer; transition: background-color 0.3s, color 0.3s;" 
+<a href="https://tse1.mm.bing.net/th?id=OIP.NDpUzTXBWdDhKMIPWc6VrwHaEK&pid=Api&rs=1&c=1&qlt=95&w=216&h=121">
+<button style="display: inline-block; padding: 10px 20px; font-size: 16px; font-weight: bold; text-align: center; text-decoration: none; background-color: #4caf4f; color: #fff; border: 2px solid #4CAF50; border-radius: 5px; cursor: pointer; transition: background-color 0.3s, color 0.3s;" 
 onmouseover="this.style.backgroundColor='#45a049'; this.style.color='#fff'" 
 onmouseout="this.style.backgroundColor='#4CAF50'; this.style.color='#fff'">
-    empty for now
+    Lokii
 </button>
+</a>
 
+<div>my favourite fruit is : Mango </div>
+        
 
+<h2>my favourite heroes:</h2>
+<table>
+    <tr>
+        <td>
+             <div class="box">iron man</div>
+        </td>
+        <td>
+             <div class="box">doctor strange</div>
+        </td>
+        <td>
+            <div class="box">captain america</div>
+        </td>
+        <td>
+            <div class="box">wanda</div>
+        </td>
+    </tr>
+</table>
 
- 
+<button onclick="console.log('button clicked');alert('thankyou , but this button just do nothing')" > click here</button>
+  
+<button id="t" >double tap here !</button>
+<br/><hr/>
+<button id="mode"> change mode </button>
 
-<script src="script.js"></script>
+<script src="first.js"></script>
 </body>
 </html> 
