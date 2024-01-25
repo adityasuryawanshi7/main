@@ -6,7 +6,7 @@ let div = document.querySelector("div")
 //changing element in html
 let h2=document.querySelector("h2")
 console.dir(h2.innerText);
-h2.innerText= h2.innerText + "by aditya";
+h2.innerText= h2.innerText + "!";
 
 
 let t= document.querySelector("#t")
@@ -18,6 +18,7 @@ t.ondblclick= () => {
 
 
 let modeBtn = document.querySelector("#mode");
+let body=document.querySelector("body");
 let currMode="light";
 
 modeBtn.addEventListener("click", ()=> {
@@ -27,11 +28,15 @@ modeBtn.addEventListener("click", ()=> {
     {currMode="dark";
     document.querySelector("body").style.backgroundColor="black"
     document.querySelector("body").style.color="white"
+    body.classList.add("dark");
+    body.classList.remove("light");
 }
   
-    else
-    {currMode="light";
-    document.querySelector("body").style.backgroundColor="pink"
+    else{currMode="light";
+   body.classList.add("pink");
+   body.classList.remove("dark");
+   document.querySelector("body").style.backgroundColor="pink"
+   document.querySelector("body").style.color="black"
 }
     console.log(currMode)
 });
