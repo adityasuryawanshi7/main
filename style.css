@@ -1,10 +1,41 @@
 h1{
     color: rgb(125, 36, 39);
-    background-color: rgb(232, 171, 200);
+    background-color: rgba(193, 167, 180, 0.701);
 }
 body{
-    background-color:pink;
+    background-color:rgb(201, 173, 163);
 }
+
+
+
+
+
+#g{
+    position: fixed;
+    background-color: rgb(246, 240, 244);
+    font-size: 20px;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    margin: 0px;
+    text-align: center;
+    align-items: center;
+    
+}
+#inner{
+    margin: 9px;
+    margin-top: 15px;
+    margin-left: 9px;
+    font-size: 15px;
+    
+}
+
+
+
+
+
+
+
 h3{
     color: brown;
 }
@@ -32,8 +63,20 @@ h3{
     height: 50px; 
     width: 150px;
     border-radius: 10px;
-    color: rgb(6, 0, 0);
+    color: rgb(242, 237, 237);
     font-size: 20px;
-    background-color: rgb(62, 104, 168);
+    background-color: rgb(102, 38, 89);
     margin: 5px;
+}
+#alpha{
+    background-color: rgb(41, 30, 82);
+    text-align: center;
+    height: 80px;
+    font-size: 45px;
+    color: whitesmoke;
+    align-self: center;
+    width: 750px;
+    margin-left: 410px;
+    margin-right: 440px;
+
 }
