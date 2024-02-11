@@ -33,9 +33,9 @@ modeBtn.addEventListener("click", ()=> {
 }
   
     else{currMode="light";
-   body.classList.add("pink");
+   body.classList.add("light");
    body.classList.remove("dark");
-   document.querySelector("body").style.backgroundColor="rgba(193, 167, 180, 0.701)"
+   document.querySelector("body").style.backgroundColor="rgb(201, 173, 163)";
    document.querySelector("body").style.color="black"
 }
     console.log(currMode)
